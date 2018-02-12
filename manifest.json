@@ -1,15 +1,11 @@
 {
 
- "description": "Adds a solid red border to all webpages matching mozilla.org. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#borderify",
   "manifest_version": 2,
   "name": "Firefox Extension",
   "version": "1.0",
 
   "description": "Adds a red border to all webpages matching mozilla.org.",
 
-  "icons": {
-    "48": "icons/border-48.png"
-  },
   //--READ MORE-- Here write chrome ext if any inside ID
   "applications": {
   "gecko": {
@@ -20,7 +16,7 @@
   "icons": {
   "48": "icon.png",
   "96": "icon.png"
-  }
+  },
 
   "content_scripts": [
     {
